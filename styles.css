@@ -85,11 +85,11 @@ body {
 /* Desktop / Large screens */
 @media (min-width: 1024px) {
   .navbar {
-    height: 100px; /* taller navbar */
+    height: 75px; /* taller navbar */
   }
 
   .logo img {
-    height: 90px; /* 90% of navbar height */
+    height: 67.5px; /* 90% of navbar height */
   }
 
   .nav-links a {

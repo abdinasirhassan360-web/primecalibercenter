@@ -35,7 +35,7 @@ body {
 
 
 .logo img {
-  height: 90px;        /* controls logo size */
+  height: 70px;        /* controls logo size */
   width: auto;         /* keeps proportions */
   display: block;
 }
@@ -49,6 +49,14 @@ body {
     height: 48px;
   }
 }
+
+/* Desktop / larger screens */
+@media (min-width: 1024px) {
+  .logo img {
+    height: 100%; /* takes full navbar height on desktop */
+  }
+}
+
 .nav-links a {
   text-decoration: none;
   color: #333;

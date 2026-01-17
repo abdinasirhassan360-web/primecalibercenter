@@ -89,7 +89,7 @@ body {
   }
 
   .logo img {
-    height: 90%; /* 90% of navbar height */
+    height: 90px; /* 90% of navbar height */
   }
 
   .nav-links a {

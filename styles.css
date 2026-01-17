@@ -41,7 +41,7 @@ body {
 }
 
 .logo span {
-  color: #2e7d32;
+  color: #194bab;
 }
 
 .nav-links {
@@ -88,7 +88,7 @@ body {
 
 .cta-btn {
   padding: 12px 28px;
-  background: #2e7d32;
+  background: #194bab;
   color: white;
   border: none;
   border-radius: 6px;
@@ -175,7 +175,7 @@ body {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #2e7d32;
+  background: #194bab;
   color: white;
   border-radius: 50%;
   line-height: 40px;
@@ -248,7 +248,7 @@ body {
 /* CTA */
 .cta-section {
   padding: 80px 0;
-  background: #2e7d32;
+  background: #194bab;
   color: white;
   text-align: center;
 }

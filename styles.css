@@ -263,6 +263,12 @@ body {
   overflow: hidden; /* prevent image from overflowing */
 }
 
+.program-card {
+  width: 100%;
+  max-width: 260px; /* controls card width */
+}
+
+
 .program-card img {
   width: 100%;       /* makes the image fit the card width */
   height: auto;      /* maintains aspect ratio */

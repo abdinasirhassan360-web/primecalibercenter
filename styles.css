@@ -35,7 +35,7 @@ body {
 
 
 .logo img {
-  height: 40px;        /* controls logo size */
+  height: 90px;        /* controls logo size */
   width: auto;         /* keeps proportions */
   display: block;
 }

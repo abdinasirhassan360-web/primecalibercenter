@@ -213,6 +213,7 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .why-text ul {
@@ -222,6 +223,24 @@ body {
 
 .why-text li {
   margin-bottom: 10px;
+}
+
+.why-image img {
+  width: 100%;      /* makes it fit the container width */
+  height: auto;     /* keeps proportions */
+  max-width: 400px; /* optional: prevent it from getting too large on desktop */
+  display: block;   /* remove inline spacing issues */
+  margin: 0 auto;   /* center if needed */
+}
+
+.why-text, .why-image {
+  flex: 1 1 300px;  /* min width 300px, grows to fill space */
+}
+
+@media (max-width: 768px) {
+  .why-image img {
+    max-width: 100%;  /* fills the screen width on mobile */
+  }
 }
 
 /* TESTIMONIALS */

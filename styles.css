@@ -30,15 +30,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 100%;            /* fill navbar height */
+  padding: 0 20px;
 }
-
 
 .logo img {
-  height: 70px;        /* controls logo size */
-  width: auto;         /* keeps proportions */
+  max-height: 90%;        /* never bigger than 90% of navbar height */
+  width: auto;
   display: block;
 }
+
 .nav-links {
   display: flex;
   gap: 20px;
@@ -52,8 +53,12 @@ body {
 
 /* Desktop / larger screens */
 @media (min-width: 1024px) {
+  .navbar {
+    height: 100px;           /* taller navbar on desktop */
+  }
+  
   .logo img {
-    height: 100%; /* takes full navbar height on desktop */
+    max-height: 90%;          /* logo scales with navbar */
   }
 }
 

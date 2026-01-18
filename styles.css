@@ -564,3 +564,9 @@ body {
   z-index: 1;
 }
 
+/* Ensure contact page header text is white */
+.page-header h1,
+.page-header p {
+  color: #ffffff;
+}
+

@@ -5,71 +5,144 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us | Prime Caliber Center</title>
   <link rel="stylesheet" href="styles.css" />
+
 </head>
 <body>
 
-<!-- NAVBAR (reuse existing navbar) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Prime Caliber Center</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-<!-- PAGE HEADER -->
-<section class="page-header">
-  <div class="container">
-    <h1>Contact Us</h1>
-    <p>We’d love to hear from you. Get in touch with us today.</p>
-  </div>
-</section>
+  <!-- ========================
+        NAVBAR (keep original)
+  ======================== -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Prime Caliber Center Logo"></a>
+      </div>
 
-<!-- CONTACT INFO -->
-<section class="contact-info">
-  <div class="container info-grid">
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="index.html#programs">Programs</a>
+        <a href="index.html#how-it-works">How It Works</a>
+        <a href="contact.html">Contact</a>
+      </nav>
 
-    <div class="info-card">
-      <h3>📍 Location</h3>
-      <p>Nairobi, Kenya</p>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- ========================
+        BODY - SKYWARD CONTACT
+  ======================== -->
+  <main>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you. Get in touch with us today.</p>
+      </div>
+    </section>
+
+    <!-- GET IN TOUCH SECTION -->
+    <section class="get-in-touch">
+      <div class="container contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="info-card">
+            <h3>📍 Location</h3>
+            <p>Nairobi, Kenya</p>
+          </div>
+          <div class="info-card">
+            <h3>📞 Phone</h3>
+            <p>+254 XXX XXX XXX</p>
+          </div>
+          <div class="info-card">
+            <h3>✉ Email</h3>
+            <p>info@primecalibercenter.co.ke</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form>
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="text" placeholder="Phone Number" />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GOOGLE MAP -->
+    <section class="map-section">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps?q=Nairobi,Kenya&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================
+        FOOTER (Skyward-style)
+  ======================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      
+      <!-- About -->
+      <div class="footer-about">
+        <h3>Prime Caliber Center</h3>
+        <p>Providing quality tutoring and skill development for students of all levels.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="index.html#how-it-works">How It Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📍 Nairobi, Kenya</p>
+        <p>📞 +254 XXX XXX XXX</p>
+        <p>✉ info@primecalibercenter.co.ke</p>
+      </div>
+
+      <!-- Social -->
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="#" target="_blank">Facebook</a><br/>
+        <a href="#" target="_blank">Instagram</a><br/>
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+
     </div>
 
-    <div class="info-card">
-      <h3>📞 Phone</h3>
-      <p>+254 XXX XXX XXX</p>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Prime Caliber Center. All rights reserved.</p>
     </div>
-
-    <div class="info-card">
-      <h3>✉ Email</h3>
-      <p>info@primecalibercenter.co.ke</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- CONTACT FORM + MAP -->
-<section class="contact-main">
-  <div class="container contact-grid">
-
-    <!-- FORM -->
-    <div class="contact-form">
-      <h2>Send Us a Message</h2>
-
-      <form>
-        <input type="text" placeholder="Full Name" required />
-        <input type="email" placeholder="Email Address" required />
-        <input type="text" placeholder="Phone Number" />
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-
-    <!-- MAP -->
-    <div class="contact-map">
-      <iframe
-        src="https://www.google.com/maps?q=Nairobi,Kenya&output=embed"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
-
-  </div>
-</section>
-
-<!-- FOOTER (reuse existing footer) -->
-
-</body>
-</html>
+  </footer>
+    <script src="script.js"></script>

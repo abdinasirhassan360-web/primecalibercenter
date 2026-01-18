@@ -582,3 +582,8 @@ body {
   color: #ffffff;
 }
 
+.info-card h3 i {
+  color: #194bab;       /* your brand blue */
+  margin-right: 8px;
+  font-size: 1.1rem;
+}

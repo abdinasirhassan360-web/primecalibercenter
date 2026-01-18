@@ -545,6 +545,7 @@ body {
   background: url('images/header-bg.png') no-repeat center center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .page-header::after {

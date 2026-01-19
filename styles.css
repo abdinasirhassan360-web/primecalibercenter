@@ -478,7 +478,7 @@ body {
   border: 2px solid #ffffff;
 }
 
-.cta-section .cta-btn {
+.cta-section .cta-btn:hover {
   background: transparent;
   color: #ffffff;
   border-color: #ffffff;

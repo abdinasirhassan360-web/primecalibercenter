@@ -111,6 +111,8 @@ button:active,
   border: none;
   font-size: 1.8rem;
   cursor: pointer;
+  z-index: 1001;        /* above nav-links */
+  color: #333;    
 }
 
 /* =====================

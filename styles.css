@@ -50,6 +50,42 @@ body {
   display: flex;
   gap: 20px;
 }
+/* BRAND LINK INTERACTIONS */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #00abf7; /* brand light blue */
+
+}
+/* BRAND BUTTON INTERACTIONS */
+button,
+.cta-btn {
+  transition: 
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.15s ease;
+}
+
+/* Hover */
+button:hover,
+.cta-btn:hover {
+  border-color: #ff6e00;
+  box-shadow: 0 0 0 2px rgba(255, 110, 0, 0.35);
+}
+
+/* Active / Pressed */
+button:active,
+.cta-btn:active {
+  border-color: #ff6e00;
+  box-shadow: 0 0 0 3px rgba(255, 110, 0, 0.5);
+  transform: translateY(1px); /* subtle press effect */
+}
 
 .nav-links a {
   text-decoration: none;

@@ -519,6 +519,12 @@ button:active,
 .cta-section p {
   margin-bottom: 30px;
 }
+.cta-btn:hover {
+  transform: translateY(-2px);
+}
+.cta-btn {
+  transition: all 0.3s ease;
+}
 
 /* Contact form */
 .contact-form h2 {

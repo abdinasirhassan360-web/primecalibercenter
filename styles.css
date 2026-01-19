@@ -534,32 +534,28 @@ button:active,
 /* Base button style */
 button,
 .cta-btn {
-  background: #232893;       /* transparent background initially */
-  color: #ffffff;                /* white text */
-  border: 2px solid #ffffff;     /* white outline */
+  background: #232893;  /* dark blue background */
+  color: #ffffff;       /* white text */
+  border: 2px solid #ffffff; /* white outline */
   padding: 12px 28px;
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;     /* smooth hover/active */
+  transition: all 0.3s ease; /* smooth hover/active */
 }
 
-/* Hover / Focus state */
-button:hover,
-button:focus {
-  background: #00abf7;           /* light blue background */
-  color: #ffffff;                /* keep text white */
-  border-color: #00abf7;         /* optional: match border */
+.cta-btn:hover,
+.cta-btn:focus {
+  background: #00abf7;  /* light blue on hover */
+  border-color: #ff6e00; /* orange outline when hovering */
 }
 
-/* Active / Pressed state */
-button:active,
 .cta-btn:active {
-  background: #00abf7;           /* same light blue when clicked */
-  color: #ffffff;
-  border-color: #00abf7;
-  transform: translateY(1px);    /* subtle press effect */
+  background: #00abf7;  /* light blue when clicked */
+  border-color: #ff6e00; /* orange border on click */
+  transform: translateY(1px);
 }
+
 
 /* Contact form */
 .contact-form h2 {
@@ -806,7 +802,7 @@ button:active,
 
 .faq-cta p {
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #333;
 }
 

@@ -115,7 +115,7 @@ button:active,
   cursor: pointer;
   z-index: 1001;        /* above nav-links */
   color: #333;  
-  margin-right: 2px;
+  margin-right: 10px;
 }
 
 
@@ -534,7 +534,7 @@ button:active,
 /* Base button style */
 button,
 .cta-btn {
-  background: transparent;       /* transparent background initially */
+  background:#00abf7;       /* transparent background initially */
   color: #ffffff;                /* white text */
   border: 2px solid #ffffff;     /* white outline */
   padding: 12px 28px;

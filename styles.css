@@ -534,7 +534,7 @@ button:active,
 /* Base button style */
 button,
 .cta-btn {
-  background:#00abf7;       /* transparent background initially */
+  background: #232893;       /* transparent background initially */
   color: #ffffff;                /* white text */
   border: 2px solid #ffffff;     /* white outline */
   padding: 12px 28px;

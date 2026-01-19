@@ -470,6 +470,10 @@ body {
   text-align: center;
 }
 
+.cta-section p {
+  margin-bottom: 40px;
+}
+
 /* White CTA button for blue background sections */
 .cta-section .cta-btn {
   background: #ffffff;

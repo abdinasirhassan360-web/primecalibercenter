@@ -50,6 +50,16 @@ body {
   display: flex;
   gap: 20px;
 }
+/* NAVBAR LINK HOVER COLOR */
+.nav-links a {
+  transition: color 0.25s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #00abf7; /* light blue */
+}
+
 /* BRAND LINK INTERACTIONS */
 a {
   color: inherit;

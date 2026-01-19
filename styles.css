@@ -520,20 +520,6 @@ button:active,
   margin-bottom: 30px;
 }
 
-/* White CTA button for blue background sections */
-.cta-section .cta-btn {
-  background: #ffffff;
-  color: #ff6e00;              /* yellow/orange text */
-  font-weight: 700;
-  border: 2px solid #ffffff;
-}
-
-.cta-section .cta-btn:hover {
-  background: transparent;
-  color: #ffffff;
-  border-color: #ffffff;
-}
-
 /* Contact form */
 .contact-form h2 {
     padding-top:10px;

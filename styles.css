@@ -471,14 +471,14 @@ body {
 }
 
 /* White CTA button for blue background sections */
-.cta-btn {
+.cta-section .cta-btn {
   background: #ffffff;
   color: #ff6e00;              /* yellow/orange text */
   font-weight: 700;
   border: 2px solid #ffffff;
 }
 
-.cta-btn:hover {
+.cta-section .cta-btn {
   background: transparent;
   color: #ffffff;
   border-color: #ffffff;

@@ -470,6 +470,20 @@ body {
   text-align: center;
 }
 
+/* White CTA button for blue background sections */
+.cta-btn {
+  background: #ffffff;
+  color: #ff6e00;              /* yellow/orange text */
+  font-weight: 700;
+  border: 2px solid #ffffff;
+}
+
+.cta-btn:hover {
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
 /* Contact form */
 .contact-form h2 {
   margin-bottom: 20px;

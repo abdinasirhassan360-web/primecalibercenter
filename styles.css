@@ -35,7 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 100%
+  width: 100%;
   padding: 0;
 }
 
@@ -44,7 +44,7 @@ body {
   height: 50px;      /* safe fixed size for mobile */
   width: auto;
   display: block;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 
 /* NAV LINKS */
@@ -115,7 +115,7 @@ button:active,
   cursor: pointer;
   z-index: 1001;        /* above nav-links */
   color: #333;  
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 

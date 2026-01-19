@@ -525,6 +525,35 @@ button:active,
 .cta-btn {
   transition: all 0.3s ease;
 }
+/* Base button style */
+button,
+.cta-btn {
+  background: transparent;       /* transparent background initially */
+  color: #ffffff;                /* white text */
+  border: 2px solid #ffffff;     /* white outline */
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;     /* smooth hover/active */
+}
+
+/* Hover / Focus state */
+button:hover,
+button:focus {
+  background: #00abf7;           /* light blue background */
+  color: #ffffff;                /* keep text white */
+  border-color: #00abf7;         /* optional: match border */
+}
+
+/* Active / Pressed state */
+button:active,
+.cta-btn:active {
+  background: #00abf7;           /* same light blue when clicked */
+  color: #ffffff;
+  border-color: #00abf7;
+  transform: translateY(1px);    /* subtle press effect */
+}
 
 /* Contact form */
 .contact-form h2 {

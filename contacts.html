@@ -83,13 +83,37 @@
         <!-- Contact Form -->
         <div class="contact-form">
           <h2>Send Us a Message</h2>
-          <form>
-            <input type="text" placeholder="Full Name" required />
-            <input type="email" placeholder="Email Address" required />
-            <input type="text" placeholder="Phone Number" />
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
-          </form>
+
+<form id="contactForm">
+  <input
+    type="text"
+    name="name"
+    placeholder="Full Name"
+    required
+  />
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Email Address"
+    required
+  />
+
+  <input
+    type="text"
+    name="phone"
+    placeholder="Phone Number"
+  />
+
+  <textarea
+    name="message"
+    placeholder="Your Message"
+    rows="5"
+    required
+  ></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
         </div>
 
       </div>
@@ -109,49 +133,35 @@
 
   </main>
 
-  <!-- ========================
-        FOOTER (Skyward-style)
-  ======================== -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      
-      <!-- About -->
-      <div class="footer-about">
-        <h3>Prime Caliber Center</h3>
-        <p>Providing quality tutoring and skill development for students of all levels.</p>
-      </div>
-
-      <!-- Quick Links -->
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#programs">Programs</a></li>
-          <li><a href="index.html#how-it-works">How It Works</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact Info -->
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <p><i class="fa-solid fa-location-dot info-icon"></i> Links Road – Nyali, Mombasa</p>
-        <p><i class="fa-solid fa-phone info-icon"></i> +254 716 188 034</p>
-        <p><i class="fa-solid fa-envelope info-icon"></i> Primecaliberltd@gmail.com</p>
-      </div>
-
-      <!-- Social -->
-      <div class="footer-social">
-        <h4>Follow Us</h4>
-        <a href="#" target="_blank">Facebook</a><br/>
-        <a href="#" target="_blank">Instagram</a><br/>
-        <a href="#" target="_blank">LinkedIn</a>
-      </div>
-
+  
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Prime Caliber Center</h4>
+      <p>Empowering African learners.</p>
     </div>
 
-    <div class="footer-bottom">
-      <p>&copy; 2026 Prime Caliber Center. All rights reserved.</p>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#programs">Programs</a>
+      <a href="#">How it Works</a>
+      <a href="contacts.html">Contact</a>
     </div>
-  </footer>
-    <script src="script.js"></script>
+
+    <div id="contacts">
+      <h4>Contact</h4>
+      <p>Email:Primecaliberltd@gmail.com</p>
+      <p>Phone: +254 7161 880 344</p>
+    </div>
+  </div>
+
+  <p class="copyright">
+    © 2026 Prime Caliber Center. All rights reserved.
+  </p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
